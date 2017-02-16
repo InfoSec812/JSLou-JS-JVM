@@ -7,3 +7,4 @@ vertx.setPeriodic(750, function(t) {
 vertx.eventBus().consumer("ev.periodic", function(msg) {
     console.log(msg.body());
 });
+-
